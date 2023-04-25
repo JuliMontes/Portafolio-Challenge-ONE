@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="assets/css/seccionHobbies/seccionHobbies.css">
     <link rel="stylesheet" href="assets/css/seccion-formacion-academica.css">
     <link rel="stylesheet" href="assets/css/formacionAcademica/formacionAcademica.css">
+    <link rel="stylesheet" href="assets/css/seccionProyectos/seccionProyectos.css">
     <title>Portafolio | Julián Andrés Montes García</title>
 </head>
 
@@ -35,7 +36,7 @@
     <header class="header-principal font-style">
         <div class="header-principal__container">
             <div class="logo-container">
-                <a class="logo-container__link" href="#Inicio" title="Ir al inicio" tabindex="0">
+                <a class="logo-container__link" href="#inicio" title="Ir al inicio" tabindex="0">
                     <img class="logo-container__logo" src="" alt="Logo Personal de Julián">
                 </a>
             </div>
@@ -123,8 +124,8 @@
         </section>
 
         <!-- Sección Skills -->
-        <section class="seccion-skills">
-            <div class="container" id="skills">
+        <section class="seccion-skills" id="skills">
+            <div class="container">
                 <h2 class="skills__titulo" tabindex="0">Skills</h2>
                 <ul class="lista-grid">
                     <li class="lista-grid__item">
@@ -148,8 +149,8 @@
         </section>
 
         <!-- Sección de Hobbies -->
-        <section class="seccion-hobbies">
-            <div class="container" id="hobbies">
+        <section class="seccion-hobbies" id="hobbies">
+            <div class="container">
                 <h2 class="hobbies__titulo" tabindex="0">Hobbies</h2>
                 <ul class="lista-grid">
                     <li class="lista-grid__item">
@@ -173,15 +174,17 @@
         </section>
 
         <!-- Sección de Formación académica -->
-        <section class="seccion-formacion-academica">
-            <div class="formacion-academica" id="formacion">
+        <section class="seccion-formacion-academica" id="formacion">
+            <div class="formacion-academica">
                 <div class="container">
                     <h2 class="formacion-academica__titulo" tabindex="0">Formación académica</h2>
                     <ul class="formacion-academica__instituciones">
                         <li class="formacion-academica__institucion">
                             <a class="formacion-academica__link" href="https://www.aluracursos.com/" target="_blank"
                                 title="Ir a Alura Latam" tabindex="0">
-                                <img class="formacion-academica__imagen" src="./assets/img/educacion/logo-oracle-alura.jpg" alt="Logo de Oracle + alura latam" tabindex="0">
+                                <img class="formacion-academica__imagen"
+                                    src="./assets/img/educacion/logo-oracle-alura.jpg"
+                                    alt="Logo de Oracle + alura latam" tabindex="0">
                             </a>
                             <div class="formacion-academica__info">
                                 <p class="formacion-academica__formacion font-style" tabindex="0">
@@ -195,11 +198,13 @@
                         <li class="formacion-academica__institucion">
                             <a class="formacion-academica__link" href="https://www.ucaldas.edu.co/portal/"
                                 target="_blank" title="Ir a Universidad de Caldas" tabindex="0">
-                                <img class="formacion-academica__imagen" src="./assets/img/educacion/logo-ucaldas.jpg" alt="Logo de la Universidad de Caldas" tabindex="0">
+                                <img class="formacion-academica__imagen" src="./assets/img/educacion/logo-ucaldas.jpg"
+                                    alt="Logo de la Universidad de Caldas" tabindex="0">
                             </a>
                             <div class="formacion-academica__info">
                                 <p class="formacion-academica__formacion font-style" tabindex="0">
-                                    Diplomado en habilidades en programación con énfasis en aplicaciones móviles Misión TIC 2022
+                                    Diplomado en habilidades en programación con énfasis en aplicaciones móviles Misión
+                                    TIC 2022
                                 </p>
                                 <p class="formacion-academica__tiempo descripcion-imagen font-style" tabindex="0">
                                     2021 - 2021
@@ -209,7 +214,9 @@
                         <li class="formacion-academica__institucion">
                             <a class="formacion-academica__link" href="https://www.uniquindio.edu.co/" target="_blank"
                                 title="Ir a Universidad del Quindío" tabindex="0">
-                                <img class="formacion-academica__imagen" src="./assets/img/educacion/logo-uniquindio.png" alt="Logo de la Universidad del Quindío" tabindex="0">
+                                <img class="formacion-academica__imagen"
+                                    src="./assets/img/educacion/logo-uniquindio.png"
+                                    alt="Logo de la Universidad del Quindío" tabindex="0">
                             </a>
                             <div class="formacion-academica__info">
                                 <p class="formacion-academica__formacion font-style" tabindex="0">
@@ -228,57 +235,64 @@
         <!-- Sección de Experiencia Profesional/Proyectos-->
         <section class="seccion-proyectos" id="proyectos">
             <div class="container">
-                <h2 class="seccion-proyectos__titulo" tabindex="0">Proyectos</h2>
+                <h2 class="proyectos__titulo" tabindex="0">Proyectos</h2>
                 <!-- <div class="seccion-proyectos__proyecto">
                 <img class="proyecto__imagen proyecto__imagen--orden-primero" src="" alt="Vista previa del Encriptador de Texto" title="Encriptador de Texto" tabindex="0">
             </div> -->
                 <div class="proyectos__container">
-                    <div class="proyectos__tarjeta">
-                        <div class="proyectos__tarjeta-frontal">
-                            <div class="tarjeta-frontal__bg"></div>
-                            <div class="tarjeta-frontal__titulo">
-                                <h3>Encriptador de texto</h3>
+                    <div class="tarjeta-principal">
+                        <div class="proyectos__tarjeta">
+                            <div class="proyecto__imagen--encriptador">
+                                <div class="tarjeta-frontal__bg"></div>
+                                <div class="tarjeta-frontal__titulo">
+                                    <h3>Encriptador de texto</h3>
+                                </div>
                             </div>
-                        </div>
-                        <div class="proyectos__tarjeta-trasera">
-                            <div class="tarjeta-trasera">
-                                <p>Encriptador de texto, realizado como reto para la formación de Alura Latam</p>
-                                <a href="https://github.com/JuliMontes/encriptador_reto" target="_blank">
-                                    <input type="button" value="Repositorio">
-                                </a>
-                                <a href="https://julimontes.github.io/encriptador_reto/" target="_blank">
-                                    <input type="button" value="Ver Demo">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="proyectos__container">
-                    <div class="proyectos__tarjeta">
-                        <div class="proyectos__tarjeta-frontal">
-                            <div class="tarjeta-frontal__bg"></div>
-                            <div class="tarjeta-frontal__titulo">
-                                <h3>INWI</h3>
-                            </div>
-                        </div>
-                        <div class="proyectos__tarjeta-trasera">
-                            <div class="tarjeta-trasera">
-                                <p>Página web, realizada como práctica e implementación de conocimiento en HTML5 y CCS3
-                                </p>
-                                <a href="https://github.com/JuliMontes/Practica-HTML5-CSS3/tree/master/web_responsive_1"
-                                    target="_blank">
-                                    <input type="button" value="Repositorio">
-                                </a>
-                                <a href="https://web-responsive-design-inwi.netlify.app/" target="_blank">
-                                    <input type="button" value="Ver Demo">
-                                </a>
+                            <div class="proyectos__tarjeta-trasera">
+                                <div class="tarjeta-trasera">
+                                    <p>Encriptador de texto, realizado como reto para la formación de Alura Latam</p>
+                                    <a href="https://github.com/JuliMontes/encriptador_reto" target="_blank">
+                                        <input type="button" value="Repositorio">
+                                    </a>
+                                    <a href="https://julimontes.github.io/encriptador_reto/" target="_blank">
+                                        <input type="button" value="Ver Demo">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="tarjeta-principal">
+                        <div class="proyectos__tarjeta">
+                            <div class="proyecto__imagen--inwi">
+                                <div class="tarjeta-frontal__bg"></div>
+                                <div class="tarjeta-frontal__titulo">
+                                    <h3>INWI</h3>
+                                </div>
+                            </div>
+                            <div class="proyectos__tarjeta-trasera">
+                                <div class="tarjeta-trasera">
+                                    <p>Página web, realizada como práctica e implementación de conocimiento en HTML5 y
+                                        CCS3
+                                    </p>
+                                    <a href="https://github.com/JuliMontes/Practica-HTML5-CSS3/tree/master/web_responsive_1"
+                                        target="_blank">
+                                        <input type="button" value="Repositorio">
+                                    </a>
+                                    <a href="https://web-responsive-design-inwi.netlify.app/" target="_blank">
+                                        <input type="button" value="Ver Demo">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Agregar más proyectos -->
+
+
                 </div>
 
-                <!-- Agregar más proyectos -->
+
             </div>
         </section>
 

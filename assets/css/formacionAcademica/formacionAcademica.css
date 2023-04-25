@@ -59,7 +59,7 @@ imagen y div de textos*/
     height: 16em;
     width: inherit;
     border-radius: 10px;
-    transition: 0.8s
+    transition: 0.8s;
 }
 
 .formacion-academica__imagen:hover {
