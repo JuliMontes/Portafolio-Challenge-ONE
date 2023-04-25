@@ -8,8 +8,11 @@ y de 100% al reducirse*/
 }
 
 /*Eliminando margenes*/
-.biografia__subtitulo {
+.biografia__titulo {
     margin: 0;
+    font-size: var(--tamañoLetraEscritorio-subtitulosSeccion);
+    font-weight: 700;
+    text-align: left;
 }
 
 /*Eliminando margen inferior*/
@@ -29,7 +32,7 @@ y de 100% al reducirse*/
     }
 
     /*Estableciendo tamaño de subtitulo en 22px*/
-    .biografia__subtitulo {
+    .biografia__titulo {
         font-size: var(--tamañoLetraTablet-titulosYSubtitulos);
     }
 
@@ -48,7 +51,7 @@ y de 100% al reducirse*/
     }
 
     /*Estableciendo tamaño de subtitulo en 22px*/
-    .biografia__subtitulo {
+    .biografia__titulo {
         font-size: var(--tamañoLetraCelular-tituloBienvenida-subtitulosSeccion);
     }
 

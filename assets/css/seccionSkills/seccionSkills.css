@@ -1,0 +1,104 @@
+/*Estableciendo padding superior e inferior acorde al header*/
+.seccion-skills {
+    padding: var(--altura-header-Escritorio) 0;
+}
+
+/*Configurando subtitulos h2 con margen inferior de 32 px
+y alineados al centro*/
+.skills__titulo {
+    font-size: var(--tamañoLetraEscritorio-subtitulosSeccion);
+    font-weight: 700;
+    margin: 0 0 2em 0;
+    ;
+    text-align: center;
+}
+
+/*Tablets y celulares grandes u horizontales*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .skills__titulo {
+        font-size: var(--tamañoLetraTablet-titulosYSubtitulos);
+    }
+}
+
+/*Celulares verticales*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .skills__titulo {
+        font-size: var(--tamañoLetraCelular-tituloBienvenida-subtitulosSeccion);
+    }
+}
+
+/*iconos con ancho y alto de 48px y animación*/
+.skills__icono {
+    width: 3rem;
+    height: 3rem;
+    color:#9d8ea6;
+    font-size: 3rem;
+    margin-bottom: 0.3125rem;
+}
+
+.skills__icono:hover {
+    animation: bounce 0.8s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+/*Animación para realizar rebote */
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 15px, 0);
+    }
+}
+
+/* Prefix Support */
+.skills__icono:hover {
+    -webkit-animation-name: bounce;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: cubic-bezier(
+    .8, 0.05, 1, .8);
+    -webkit-animation-iteration-count: infinite;
+}
+  
+@-webkit-keyframes bounce {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        -webkit-transform: translate3d(0, 15px, 0);
+        transform: translate3d(0, 15px, 0);
+    }
+}
+
+/*Selectores flag para iconos*/
+.skills__icono--canva {
+    background: url("../../img/iconos/skills/canva-logo.png") center / 100% 100% no-repeat;
+    border-radius: 50%;
+}
+
+
+/*Aplicando ancho completo al texto, texto en 
+negritas y margen superior de 8px*/
+.skills__descripcion {
+    font-weight: 700;
+    margin: 0.5em 0 0 0;
+    width: 100%;
+}
+
+/*Tablets y celulares grandes u horizontales*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .seccion-skills {
+        padding: var(--altura-header-Tablet) 0;
+    }
+}
+
+/*Celulares verticales*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .seccion-skills {
+        padding: var(--altura-header-Celular) 0;
+    }
+}

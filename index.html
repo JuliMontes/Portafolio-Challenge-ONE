@@ -11,7 +11,7 @@
     <!-- Fonte del Proyecto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/headerPrincipal/headerPrincipal.css">
     <link rel="stylesheet" href="assets/css/logoContainer/logoContainer.css">
@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="assets/css/datosPersonales/datosPersonales.css">
     <link rel="stylesheet" href="assets/css/seccionSobreMi.css">
     <link rel="stylesheet" href="assets/css/biografia/biografia.css">
+    <link rel="stylesheet" href="assets/css/seccionSkills/seccionSkills.css">
+    <link rel="stylesheet" href="assets/css/listaGrid/listaGrid.css">
     <title>Portafolio | Julián Andrés Montes García</title>
 </head>
 
@@ -60,7 +62,7 @@
                         <h1 class="datos-personales__titulo" tabindex="0">Soy Julián Andrés Montes García, desarrollo
                             páginas web desde el frontend.
                         </h1>
-                        <p class="datos-personales__parrafo tamaño-parrafo" tabindex="0">
+                        <p class="datos-personales__parrafo tamaño-parrafos" tabindex="0">
                             Soy egresado de la Universidad de Caldas en el proyecto Misión TIC, actualmente soy parte
                             del programa Oracle Next Education (ONE) en Alura Latam, donde estoy aprendiendo sobre Front
                             End con HTML5, CSS3 y JavaScript.
@@ -98,7 +100,7 @@
         <section class="seccion-sobre-mi font-style">
             <div class="container">
                 <div class="biografia" id="sobreMi">
-                    <h2 class="biografia__subtitulo" tabindex="0">Sobre mi</h2>
+                    <h2 class="biografia__titulo" tabindex="0">Sobre mi</h2>
                     <p class="biografia__parrafo" tabindex="0">
                         Hola, mi nombre es Julián Andrés, soy de Colombia, tengo 32 años y actualmente tengo mi foco en
                         el desarrollo front-end, buscando mi crecimiento intelectual.
@@ -120,15 +122,15 @@
                 <h2 class="skills__titulo" tabindex="0">Skills</h2>
                 <ul class="lista-grid">
                     <li class="lista-grid__item">
-                        <div class="skills__icono skills__icono--html5"></div>
+                        <i class="skills__icono fa-brands fa-html5"></i>
                         <p class="skills__descripcion" tabindex="0">HTML5</p>
                     </li>
                     <li class="lista-grid__item">
-                        <div class="skills__icono skills__icono--css3"></div>
+                        <i class="skills__icono fa-brands fa-css3-alt"></i>
                         <p class="skills__descripcion" tabindex="0">CSS3</p>
                     </li>
                     <li class="lista-grid__item">
-                        <div class="skills__icono skills__icono--javascript"></div>
+                        <i class="skills__icono fa-brands fa-square-js"></i>
                         <p class="skills__descripcion" tabindex="0">JavaScript</p>
                     </li>
                     <li class="lista-grid__item">
@@ -364,6 +366,7 @@
 
     <!-- Script del documento JavaScript -->
     <script src="main.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/e12e193cb7.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
