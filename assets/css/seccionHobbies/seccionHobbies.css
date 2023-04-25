@@ -1,0 +1,66 @@
+/*Estableciendo padding superior e inferior acorde al header*/
+.seccion-hobbies {
+    padding: var(--altura-header-Escritorio) 0;
+}
+
+/*Configurando subtitulos h2 con margen inferior de 32 px
+y alineados al centro*/
+.hobbies__titulo{
+    font-size: var(--tamañoLetraEscritorio-subtitulosSeccion);
+    font-weight: 700;
+    margin: 0 0 2em 0;
+    ;
+    text-align: center;
+}
+
+/*Tablets y celulares grandes u horizontales*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .hobbies__titulo {
+        font-size: var(--tamañoLetraTablet-titulosYSubtitulos);
+    }
+}
+
+/*Celulares verticales*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .hobbies__titulo {
+        font-size: var(--tamañoLetraCelular-tituloBienvenida-subtitulosSeccion);
+    }
+}
+
+/*Container con ancho y alto de 48px*/
+.hobbies__icono {
+    width: 3rem;
+    height: 3rem;
+    color:#AF8FB8;
+    font-size: 3rem;
+    margin-bottom: 0.3125rem;
+}
+
+.hobbies__icono:hover {
+    animation: bounce 0.8s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+/*Texto con ancho completo, fuente en negritas y margen superior
+de 8px*/
+.hobbies__parrafo {
+    font-weight: 700;
+    margin: 0.5em 0 0 0;
+    width: 100%;
+}
+
+/*Tablets y celulares grandes u horizontales*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .seccion-hobbies {
+        padding: var(--altura-header-Tablet) 0;
+    }
+}
+
+/*Celulares verticales*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .seccion-hobbies {
+        padding: var(--altura-header-Celular) 0;
+    }
+}
