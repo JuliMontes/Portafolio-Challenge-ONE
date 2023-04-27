@@ -14,6 +14,10 @@ en el modo responsive exceptuando al header*/
     .container {
         padding: var(--padding-tablet-celularHorizontal);
     }
+
+    .container-presentacion {
+        margin-top: 80px;
+    }
 }
 
 /*Celulares verticales*/
