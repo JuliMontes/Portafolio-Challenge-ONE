@@ -39,7 +39,7 @@
     - Tamaño de fuente: 14px
     */
     .menu__link {
-        border-top: solid 0.2em var(--font-color);
+        /* border-top: solid 0.2em var(--font-color); */
         display: inherit;
         font-size: var(--tamañoLetraCelular-parrafosYLinks-descripcionImagen);
         font-weight: 500;
