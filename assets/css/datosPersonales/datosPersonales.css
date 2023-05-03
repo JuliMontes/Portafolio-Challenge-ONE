@@ -8,6 +8,7 @@ espaciado entre ellos*/
     justify-content: space-between;
     margin-top: 0;
     width: inherit;
+    position: sticky;
 }
 
 /*Ajustando texto al centro horizontalmente y definiendo altura
@@ -24,7 +25,7 @@ del contenedor acorde a la del header de escritorio*/
 
 /*Estableciendo color de letra y tamaño*/
 .datos-personales__titulo {
-    color: #2c2828;
+    color: #ffffff;
     font-size: var(--tamañoLetraEscritorio-titulos);
     font-weight: 700;
     margin-bottom: 0;
@@ -33,7 +34,7 @@ del contenedor acorde a la del header de escritorio*/
 /*Estableciendo color de letra, tamaño,
 subiendo parrafo un poco*/
 .datos-personales__parrafo {
-    color: #2c2828;
+    color: #ffffff;
     /*#2c2828*/
     font-size: var(--tamañoLetraEscritorio-subtitulosDscImagen);
     font-weight: 500;
@@ -87,11 +88,12 @@ filas, el ancho es heredado de .datos-personales__presentacion*/
 
 .datos-personales__icono--curriculum {
     background: url("../../img/iconos/contacto/curriculum.png") no-repeat center / cover;
+    background-color: #fff;
 }
 
 /*Estableciendo tamaño de foto y radio circular*/
 .datos-personales__foto {
-    border-radius: 100%;
+    border-radius: 20%;
     height: var(--ancho-alto-foto-Escritorio);
     margin-top: var(--altura-header-Escritorio);
     width: var(--ancho-alto-foto-Escritorio);
