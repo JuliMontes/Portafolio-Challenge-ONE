@@ -13,7 +13,7 @@
 
 /*Selector de clase flag para imagen de fondo*/
 .formulario-container__imagen--contacto {
-    background: url("../../img/contacto_edit.png") no-repeat center / cover;
+    background: url("../../img/iconos/contacto_ed.png") no-repeat center / cover;
 }
 
 /*Estableciendo ancho y alto en container de subtitulo y formulario*/
