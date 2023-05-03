@@ -30,6 +30,10 @@ con un espacio entre ellos, padding de 32px*/
     font-weight: 500;
 }
 
+.seccion-footer__autor span {
+    font-weight: 700;
+}
+
 /*Condigurando container flex*/
 .seccion-footer__agradecimientos {
     display: flex;

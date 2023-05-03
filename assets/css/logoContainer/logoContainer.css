@@ -11,6 +11,12 @@
 .logo-container__logo {
     width: 3.2em;
     /*2.2 movil - tablet*/
+    transition: 3s;
+}
+
+.logo-container__logo:hover {
+    transform: rotate(360deg);
+    transition: 3s;
 }
 
 /*Link envolvente del logotipo sin subrayado*/
