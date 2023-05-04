@@ -84,6 +84,11 @@
         height: 100vh;
     }
     */
+
+    .seccion-presentacion__fondo-burbujas span {
+        width: 16px;
+        height: 16px;
+    }
 }
 
 /*Celulares verticales*/
@@ -106,4 +111,10 @@
         width: 100%; 
     }
     */
+
+    .seccion-presentacion__fondo-burbujas span {
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+    }
 }

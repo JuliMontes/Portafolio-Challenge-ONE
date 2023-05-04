@@ -57,8 +57,7 @@ y alineados al centro*/
     -webkit-animation-name: bounce;
     -webkit-animation-duration: 0.8s;
     -webkit-animation-direction: alternate;
-    -webkit-animation-timing-function: cubic-bezier(
-    .8, 0.05, 1, .8);
+    -webkit-animation-timing-function: cubic-bezier(.8, 0.05, 1, .8);
     -webkit-animation-iteration-count: infinite;
 }
   
