@@ -30,7 +30,7 @@ y alineados al centro*/
 .hobbies__icono {
     width: 3rem;
     height: 3rem;
-    color:#AF8FB8;
+    color:var(--color-iconos-primario);
     font-size: 3rem;
     margin-bottom: 0.3125rem;
 }

@@ -30,7 +30,7 @@ y alineados al centro*/
 .skills__icono {
     width: 3rem;
     height: 3rem;
-    color:#9d8ea6;
+    color: var(--color-iconos-primario);
     font-size: 3rem;
     margin-bottom: 0.3125rem;
 }
@@ -75,8 +75,8 @@ y alineados al centro*/
 
 /*Selectores flag para iconos*/
 .skills__icono--canva {
-    background: url("../../img/iconos/skills/canva-logo.png") center / 100% 100% no-repeat;
-    border-radius: 50%;
+    background: url("../../img/iconos/skills/Logo_Canva_edit.png") center / 100% 100% no-repeat;
+    border-radius: 12%;
 }
 
 
