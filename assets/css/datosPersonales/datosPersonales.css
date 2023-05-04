@@ -25,7 +25,7 @@ del contenedor acorde a la del header de escritorio*/
 
 /*Estableciendo color de letra y tamaño*/
 .datos-personales__titulo {
-    color: #ffffff;
+    color: #2c2828;
     font-size: var(--tamañoLetraEscritorio-titulos);
     font-weight: 700;
     margin-bottom: 0;
@@ -34,7 +34,7 @@ del contenedor acorde a la del header de escritorio*/
 /*Estableciendo color de letra, tamaño,
 subiendo parrafo un poco*/
 .datos-personales__parrafo {
-    color: #ffffff;
+    color: #2c2828;
     /*#2c2828*/
     font-size: var(--tamañoLetraEscritorio-subtitulosDscImagen);
     font-weight: 500;
@@ -93,7 +93,7 @@ filas, el ancho es heredado de .datos-personales__presentacion*/
 
 /*Estableciendo tamaño de foto y radio circular*/
 .datos-personales__foto {
-    border-radius: 20%;
+    border-radius: 5%;
     height: var(--ancho-alto-foto-Escritorio);
     margin-top: var(--altura-header-Escritorio);
     width: var(--ancho-alto-foto-Escritorio);

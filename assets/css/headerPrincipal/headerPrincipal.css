@@ -8,6 +8,8 @@ Header posicionado fijamente en la parte superior, con altura de 88px y un ancho
     top: 0;
     width: 100%;
     transition: transform 0.4s;
+    position: sticky;
+    z-index: 200;
 }
 
 /*El menú subirá con un porcentaje de -100%, en el eje Y*/
