@@ -10,17 +10,23 @@
     /*Tipografía*/
     --font-family: 'Raleway', sans-serif;
     /*Color de fuente*/
-    --font-color: #464646;
+    --font-color: #EFF3F5;
     /*Color de fuente secundaria*/
-    --font-color-two: #ffffff;
+    --font-color-two: #C8CDD0;
     /*Color de fondo principal*/
-    --color-fondo-primario: #F5F5F5;
-    /*Color de fuente secundario*/
-    --color-fondo-secundario: #EAF2FD;
+    --color-fondo-primario: #192229;
+    /*Color de fondo secundario*/
+    --color-fondo-secundario: #212e36;
+    /*Color de fondo tarjetas*/
+    --color-fondo-tarjetas: #212E36;
     /*Color primario boton*/
-    --color-botones-primario: #2A7AE4;
+    --color-botones-primario: #4fc3dc;
     /*Color primario icono*/
     --color-iconos-primario: #145e8a;
+    /*Color fondo primario burbujas*/
+    --color-fondo-burbujas: #4fc3dc;
+    /*Color fondo secundario burbujas*/
+    --color-fondo-burbujas-secundario: #4fdc69;
 
     /*<----Alncho y alto de foto---->*/
     /*368px*/
@@ -105,6 +111,7 @@
 html {
     color: var(--font-color);
     font-family: var(--font-family);
+    background-color: var(--color-fondo-primario);
     scroll-behavior: smooth;
 }
 

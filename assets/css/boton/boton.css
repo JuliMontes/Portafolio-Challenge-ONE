@@ -7,7 +7,7 @@ con color secundario, padding de 16px y transición*/
     background: transparent;
     border: solid 0.1em var(--color-botones-primario);
     font-size: var(--tamañoLetraEscritorio-parrafosYLinks-dscImagen-botones);
-    font-weight: 400;
+    font-weight: 600;
     margin: 0 auto;
     padding: 1em;
     text-decoration: none;
@@ -43,9 +43,11 @@ pasar el puntero
 /*Selector de cambio para deshabilitar el puntero, con fondo
 y borde gris acorde a la WCAG*/
 .boton--bloqueado[type="submit"] {
-    background: #4e4b4b;
-    border: solid 0.1em #4e4b4b;
+    background: var(--color-fondo-primario);
+    border: solid 0.1em var(--color-fondo-primario);
     pointer-events: none;
+    color: var(--font-color-two);
+    font-weight: 400;
 }
 
 /*Tablets y celulares grandes u horizontales*/

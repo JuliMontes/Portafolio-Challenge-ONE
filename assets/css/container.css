@@ -6,7 +6,6 @@ en el modo responsive exceptuando al header*/
     margin: var(--centrar-con-margin);
     max-width: var(--tamaño-containerMaxWidth);
     width: 100%;
-    /*heigth: inherit*/
 }
 
 /*Tablets y celulares grandes u horizontales*/
@@ -16,7 +15,7 @@ en el modo responsive exceptuando al header*/
     }
 
     .container-presentacion {
-        margin-top: 80px;
+        margin-top: 20px;
     }
 }
 

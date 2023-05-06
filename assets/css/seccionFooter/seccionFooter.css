@@ -28,12 +28,14 @@ con un espacio entre ellos, padding de 32px*/
 
 /*Agregando peso a letra*/
 .seccion-footer__autor {
-    color: #2c2828;
+    /* color: #2c2828; */
+    color: var(--font-color-two);
     font-weight: 500;
 }
 
 .seccion-footer__autor span {
     font-weight: 700;
+    color: var(--font-color);
 }
 
 /*Condigurando container flex*/
@@ -97,5 +99,9 @@ con un espacio entre ellos, padding de 32px*/
     /*Cambiando dirección flex a columna*/
     .seccion-footer__agradecimientos {
         width: 100%;
+    }
+    
+    .seccion-footer__parrafo {
+        color: var(--font-color-two);
     }
 }

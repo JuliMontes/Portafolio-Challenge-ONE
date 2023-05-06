@@ -25,16 +25,36 @@ del contenedor acorde a la del header de escritorio*/
 
 /*Estableciendo color de letra y tamaño*/
 .datos-personales__titulo {
-    color: #2c2828;
+    color: var(--font-color);
     font-size: var(--tamañoLetraEscritorio-titulos);
     font-weight: 700;
     margin-bottom: 0;
 }
 
+/*Estableciendo el efecto máquina de escribir o typing*/
+.datos-personales__titulo span {
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 25ch;
+    animation: typing 12s steps(25) infinite,
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+/*Estableciendo animaciones para el efecto máquina de escribir o typing*/
+@keyframes typing {
+    from { width: 0;}
+}
+
+@keyframes blink {
+    50% { border-color: transparent;}
+}
+
 /*Estableciendo color de letra, tamaño,
 subiendo parrafo un poco*/
 .datos-personales__parrafo {
-    color: #2c2828;
+    color: var(--font-color-two);
     /*#2c2828*/
     font-size: var(--tamañoLetraEscritorio-subtitulosDscImagen);
     font-weight: 500;
@@ -73,22 +93,17 @@ filas, el ancho es heredado de .datos-personales__presentacion*/
 
 /*Despegando icono de texto y asignando ancho y alto de 13px*/
 .datos-personales__icono {
-    height: 2.5em;
-    width: 2.5em;
+    height: 3rem;
+    width: 3rem;
+    color: var(--color-fondo-burbujas);
+    text-align: center;
+    align-self: center;
+    font-size: 3rem;
 }
 
 /*Configurando selector flag para iconos de contacto*/
-.datos-personales__icono--github {
-    background: url("../../img/iconos/contacto/github.png") no-repeat center / cover;
-}
-
-.datos-personales__icono--linkedin {
-    background: url("../../img/iconos/contacto/linkedin.png") no-repeat center / cover;
-}
-
 .datos-personales__icono--curriculum {
-    background: url("../../img/iconos/contacto/curriculum.png") no-repeat center / cover;
-    background-color: #fff;
+    background: url("../../img/iconos/contacto/curriculum_vitae.png") no-repeat center / cover;
 }
 
 /*Estableciendo tamaño de foto y radio circular*/

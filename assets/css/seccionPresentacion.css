@@ -38,22 +38,22 @@
     position: sticky;
     width: 30px;
     height: 30px;
-    background-color: #4fc3dc;
+    background-color: var(--color-fondo-burbujas);
     margin: 0 4px;
     border-radius: 50%;
     box-shadow: 0 0 0 10px #4fc3dc44,
-    0 0 50px #4fc3dc,
-    0 0 100px #4fc3dc;
+    0 0 50px var(--color-fondo-burbujas),
+    0 0 100px var(--color-fondo-burbujas);
     animation: animate 15s linear infinite;
     animation-duration: calc(125s / var(--i));
     z-index: 0;
 }
 
 .seccion-presentacion__fondo-burbujas span:nth-child(even) {
-    background-color: #4fdc69;
+    background-color: var(--color-fondo-burbujas-secundario);
     box-shadow: 0 0 0 10px #4fdc6944,
-    0 0 50px #4fdc69,
-    0 0 100px #4fdc69;
+    0 0 50px var(--color-fondo-burbujas-secundario),
+    0 0 100px var(--color-fondo-burbujas-secundario);
 }
 
 @keyframes animate {
